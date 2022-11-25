@@ -9,13 +9,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="734dp"
+        android:layout_width="412dp"
+        android:layout_height="731dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/inicio_sesion" />
 
     <ImageView
@@ -23,8 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.498"
@@ -38,7 +38,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="   "
+        android:paddingLeft="15dp"
         android:textColor="#6C6B6B"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
@@ -55,6 +55,7 @@
         android:background="@drawable/rectangulo_1"
         android:ems="10"
         android:inputType="textPassword"
+        android:paddingLeft="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.176"
@@ -66,7 +67,7 @@
     <ImageView
         android:id="@+id/imageViewVolver"
         android:layout_width="28dp"
-        android:layout_height="26dp"
+        android:layout_height="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.954"
